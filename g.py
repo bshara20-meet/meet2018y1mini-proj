@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 """
 Created on Sun Jul  1 23:58:42 2018
@@ -21,8 +20,8 @@ turtle.setup(SIZE_X, SIZE_Y) #Curious? It's the turtle window
                              #size. 
 turtle.penup()
 
-SQUARE_SIZE = 25
-START_LENGTH = 10
+SQUARE_SIZE = 20
+START_LENGTH = 4
 
 score=turtle.clone()
 score.hideturtle()
@@ -105,8 +104,7 @@ LEFT=2
 RIGHT=3
 direction = UP
 
-'a'
-'Left'
+
 
 
 def up():
